@@ -40,13 +40,23 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] Mention two parts of Express that you learned about this week.
 
+  Express Router allows us to create seperate routes for CRUD operations and import them into our index files which also helps us keep RESTful code. Express also gives us .listen to more easily set up our server.
+
 - [ ] Describe Middleware?
+
+  middleware is code that intersects to flow of things to act on the state of your code before sending it back on its way.
 
 - [ ] Describe a Resource?
 
+  A resource is just specific data that we can add and use in your app
+
 - [ ] What can the API return to help clients know if a request was successful?
 
+  It can return a 200, 201, etc status code when the operation is called.
+
 - [ ] How can we partition our application into sub-applications?
+
+  A good way would be routing your CRUD operations to different files and then just importing them to your server or index file. Not only is it cleaner and easier to read, but it stays RESTful.
 
 ## Minimum Viable Product
 
